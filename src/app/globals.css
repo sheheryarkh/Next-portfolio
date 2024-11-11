@@ -1,3 +1,5 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -38,5 +40,275 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+body {
+  background-color:  rgb(33, 36, 90);
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  min-height: 100vh;
+
+}
+#portfolio{
+   /* padding: 1rem 1rem 1rem 1rem ; */
+   font-weight: 100;
+   font-size: x-large;
+   margin-top: 0.5rem;
+   margin-left: 0.5rem;
+}
+li{
+  list-style: none;
+}
+
+a:hover{
+  color:gray;
+
+}
+header{
+  display: flex;
+  background-color:rgb(33, 26, 76);
+  position: fixed;
+  width: 100%;
+  
+  
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+#edu{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+
+#nav{
+  display: flex;
+  margin-left: auto;
+  padding: 1rem 1rem 1rem 1rem ;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+
+li:hover{
+  
+  border-radius: 1rem;
+  color: gray ;
+}
+footer{
+  position: relative;
+ margin-top: 3rem;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.ft:hover{
+ color: gray;
+  font-size:1rem;
+  border: none;
+}
+#main{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: auto;
+  width: 50%;
+  align-items: center;
+
+}
+input,textarea{
+  box-flex-group: inherit;
+  border: none;
+}
+input,textarea:focus{
+  border: none;
+}
+input {
+  margin-top: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgb(65, 68, 121);
+  border-radius: 2rem;
+  padding: 1rem 1rem 1rem 1rem ;
+  font-size: 1.5rem;
+  color: white;
+}
+#btn {
+  
+  background-color:  rgb(65, 68, 121);
+  color: white;
+ border:  rgb(65, 68, 121);
+  border-radius: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  text-align: center;
+  
+  cursor: pointer;
+  margin: 5px;
+}
+textarea{
+  border-radius: 1rem;
+    width: 100%;
+    padding-left: 1rem;
+    border-top: none;
+    font-size: 1.5rem;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(65, 68, 121);
+    color: white;
+}
+textarea:focus{
+    outline: none;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px white solid; */
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgb(33, 26, 76);
+  padding: 4rem 2rem 2rem 2rem;
+  text-align: center;
+  /* margin-left: 10rem; */
+  background-color:rgb(33, 26, 76);
+  width: 70%;
+  margin: auto;
+  
+}
+span{
+  color: rgb(65, 68, 121);
+}
+#pic{
+  border-radius: 50%;
+}
+
+#about{
+  text-align: center;
+  width: 100%;
+
+  padding: 4rem 4rem 4rem 4rem;
+
+}
+
+.ft{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  
+}
+hr{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+a.hire-me-button:hover{
+  color: rgb(249, 228, 189);
+}
+a.hire-me-button{
+  font-weight: 700;
+ color: orange;
+ 
+}
+a.resume{
+ margin-left: 4rem;
+  font-weight: 700;
+  color: orange;
+}
+a.resume:hover{
+  color: rgb(249, 228, 189);
+}
+#projects{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  flex-wrap:wrap;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#skills{
+  margin-top: 2rem;
+ text-align: center;
+ padding-top: 2rem;
+  padding-bottom: 2rem;
+ 
+}
+.skills{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  
+}
+#h2{
+  text-align: center;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  font-weight: 700;
+  gap: 1rem;
+  flex-wrap: wrap;
+ 
+}
+
+@media(max-width:600px){
+  hr{
+    display: none;
+  }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    text-align: center;
+    margin-left: 1rem;
+    gap: 1rem;
+  }
+  header{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   
+   
+    
+  }
+  #nav{
+    display: flex;
+    text-align: center;
+    /* margin-left: auto; */
+    padding: 1rem 1rem 1rem 1rem ;
+    gap: 1rem;
+  justify-content: center;
+  margin-right: 1.5rem;
   }
 }
