@@ -109,6 +109,7 @@ export default function Home() {
     <Image width={110} src={serverss} alt=""></Image>
     <Image width={110} src={next} alt=""></Image>
     </div>
+     <hr/>
    </section>
    <section id="edu">
    <h2>Education</h2>
@@ -117,7 +118,7 @@ export default function Home() {
    <h3><li>graduate</li></h3>
    <h3><li>M.A English</li></h3>
    </section>
-   
+   <hr/>
  
    
     </div>
