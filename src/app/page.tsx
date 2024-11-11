@@ -52,7 +52,7 @@ export default function Home() {
             too.
           </p>
           <a
-            href="mailto:your.email@example.com?subject=Hire%20Me%20Inquiry&body=Hello%20Sheheryar%20khan,%0A%0AI%20would%20like%20to%20hire%20you%20for%20a%20project."
+            href="mailto:khansheheryar630@gmail.com?subject=Hire%20Me%20Inquiry&body=Hello%20Sheheryar%20khan,%0A%0AI%20would%20like%20to%20hire%20you%20for%20a%20project."
             className="hire-me-button"
           >
             Hire Me
